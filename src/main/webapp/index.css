@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #333333;
+	color: #cccccc;
+	font-family: Georgia;
+	text-align: center;
+}
+
+header {
+	color: #cccc33;
+	border: 1px solid black;
+	background-color: #222233;
+	border-radius: 5px;
+	padding: 50px 0;
+	margin-top: 30px
+}
+
+footer {
+	margin: 30px 60px;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+footer div {
+	grid-column: span 1;
+}
+
+.large {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 0.5px solid black;
+}

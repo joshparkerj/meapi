@@ -25,4 +25,12 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+  <servlet>
+  	<servlet-name>CharacterServlet</servlet-name>
+  	<servlet-class>com.revature.servlets.CharacterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CharacterServlet</servlet-name>
+  	<url-pattern>/character/*</url-pattern>
+  </servlet-mapping>
 </web-app>
