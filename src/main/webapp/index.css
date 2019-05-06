@@ -24,6 +24,7 @@ footer {
 
 footer div {
 	grid-column: span 1;
+	margin: 0 20px;
 }
 
 .large {
