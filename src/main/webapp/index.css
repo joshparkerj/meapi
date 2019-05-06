@@ -31,3 +31,11 @@ footer div {
 	padding-bottom: 10px;
 	border-bottom: 0.5px solid black;
 }
+
+main div {
+	margin: 0 100px;
+}
+
+a {
+	color: gold;
+}
